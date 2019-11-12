@@ -35,9 +35,6 @@ if [[ ! -z $alias ]]; then
 	alias="-c '$alias'"
 fi
 
-#PROJECT - 2
-#=============
-
 # Expiry Date
 read -p "ExpiryDate (yyyy-mm-dd): " expirydate
 if [[ ! -z $expirydate ]]; then
@@ -64,9 +61,6 @@ if [[ ! -z $secondarygroup ]]; then
 fi
 addgrp $secondarygroup
 
-
-#PROJECT 3
-#==============
 
 #Home directory
 read -p "Home directory: " homedir
